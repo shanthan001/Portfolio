@@ -20,7 +20,7 @@ body{
     background-position: center;
 }
 
-section{
+/* section{
     position: relative;
     width: 100%;
     height: 38vh;
@@ -79,7 +79,7 @@ section{
     100%{
       background-position-x: -1000px; 
     }
-  }
+  } */
 
 .container{
     padding-top: 20px;
@@ -155,6 +155,7 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
     font-weight: 700;
     letter-spacing: -0.01562em;
+    color:#fe3232;
 }
 
 .header-text h5{
@@ -174,3 +175,47 @@ nav ul li a:hover::after{
     height: 100px;
     /* border: 1px solid #fff;    */
 }
+
+/* -----------about------------ */
+/* #about{
+  padding: 80px 0;
+} */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-col-1{
+  flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 55%;
+}
+.about-col-2 p{
+  line-height: 1.334;
+  font-weight: 200;
+  letter-spacing: 0.04em;
+}
+.sub-title{
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.tab-titles{
+  display: flex;
+  margin: 20px 0 40px;
+}
+.tab-links{
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+}
+
